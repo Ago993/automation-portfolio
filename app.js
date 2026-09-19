@@ -5,21 +5,21 @@ const projects=[
   {
     kicker:"PREVENTIVI / CATALOGO",
     title:"QuoteFlow",
-    description:"Crea preventivi partendo da un catalogo locale, con prezzo e IVA già precompilati. Salva, riapri e modifica il documento.",
+    description:"Velocizza la preventivazione con catalogo locale, prezzo e IVA precompilati, senza cambiare il gestionale o il flusso principale.",
     features:["Catalogo locale","IVA per riga",".qflow","PDF / CSV"],
     url:"https://ago993.github.io/quoteflow-demo/?demo=1"
   },
   {
     kicker:"REPORT / KPI / CSV",
     title:"ReportFlow",
-    description:"Trasforma un CSV operativo in KPI, margini, trend mensili e riepiloghi leggibili senza ricostruire ogni volta il report.",
+    description:"Trasforma un export operativo in KPI, margini, trend mensili e riepiloghi leggibili senza ricostruire ogni volta il report.",
     features:["KPI automatici","Trend mensile","Margini","PDF / CSV"],
     url:"https://ago993.github.io/reportflow-demo/?demo=1"
   },
   {
     kicker:"LISTINI / DIFFERENZE / CONTROLLO",
     title:"ListinoDiff",
-    description:"Confronta due listini e individua subito aumenti, ribassi, nuovi articoli, prodotti rimossi e variazioni percentuali.",
+    description:"Confronta due listini prima di aggiornare cataloghi o sistemi e individua subito aumenti, ribassi, nuovi articoli e prodotti rimossi.",
     features:["Confronto CSV","Delta %","Filtri","Export listino"],
     url:"https://ago993.github.io/listinodiff-demo/?demo=1"
   }
