@@ -22,6 +22,13 @@ const projects=[
     description:"Confronta due listini prima di aggiornare cataloghi o sistemi e individua subito aumenti, ribassi, nuovi articoli e prodotti rimossi.",
     features:["Confronto CSV","Delta %","Filtri","Export listino"],
     url:"https://ago993.github.io/listinodiff-demo/?demo=1"
+  },
+  {
+    kicker:"IMPORT / MAPPING / VALIDAZIONE",
+    title:"ImportFlow",
+    description:"Prende un export da un sistema o fornitore, abbina le colonne al tracciato richiesto, valida i dati e genera un CSV pulito pronto per il passaggio successivo.",
+    features:["Auto-mapping","Numeri italiani","Validazione righe","Export normalizzato"],
+    url:"https://ago993.github.io/importflow-demo/?demo=1"
   }
 ];
 

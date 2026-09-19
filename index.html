@@ -81,7 +81,7 @@
 
     <section id="solutions" class="solutions section-shell">
       <div class="section-heading reveal">
-        <div><span class="section-index">02 / SOLUZIONI</span><h2>Tre esempi. Un'unica idea: <span>togliere attrito.</span></h2></div>
+        <div><span class="section-index">02 / SOLUZIONI</span><h2>Quattro esempi. Un'unica idea: <span>togliere attrito.</span></h2></div>
         <p>Le demo sono esempi tecnici, non prodotti commerciali definitivi. Ogni soluzione può essere adattata al processo reale del cliente.</p>
       </div>
       <div class="solution-grid">
@@ -103,6 +103,12 @@
           <p>Due file in ingresso e una lettura immediata di aumenti, ribassi, nuovi articoli e prodotti rimossi.</p>
           <a href="https://ago993.github.io/listinodiff-demo/?demo=1" target="_blank" rel="noreferrer">Apri ListinoDiff <span>↗</span></a>
         </article>
+        <article class="solution-card reveal" data-delay="210">
+          <div class="solution-icon">IF</div><span class="solution-no">04</span>
+          <h3>Passaggio dati tra sistemi</h3>
+          <p>Un export viene mappato, validato e normalizzato nel tracciato richiesto dal sistema successivo, senza rifare il lavoro a mano.</p>
+          <a href="https://ago993.github.io/importflow-demo/?demo=1" target="_blank" rel="noreferrer">Apri ImportFlow <span>↗</span></a>
+        </article>
       </div>
     </section>
 
@@ -118,6 +124,7 @@
               <button class="project-tab active" data-project="0" role="tab" aria-selected="true"><span>01</span>QuoteFlow</button>
               <button class="project-tab" data-project="1" role="tab" aria-selected="false"><span>02</span>ReportFlow</button>
               <button class="project-tab" data-project="2" role="tab" aria-selected="false"><span>03</span>ListinoDiff</button>
+              <button class="project-tab" data-project="3" role="tab" aria-selected="false"><span>04</span>ImportFlow</button>
             </div>
             <div class="project-details" aria-live="polite">
               <span id="projectKicker" class="project-kicker">PREVENTIVI / CATALOGO</span>
@@ -145,10 +152,14 @@
                 <div class="slide-window-bar"><div><span></span><span></span><span></span></div><small>ago993.github.io / listinodiff-demo</small></div>
                 <img src="assets/listinodiff.png?v=571d874" alt="Anteprima di ListinoDiff" draggable="false">
               </article>
+              <article class="project-slide back" data-index="3">
+                <div class="slide-window-bar"><div><span></span><span></span><span></span></div><small>ago993.github.io / importflow-demo</small></div>
+                <img src="assets/importflow.png?v=51da8f9" alt="Anteprima di ImportFlow" draggable="false">
+              </article>
             </div>
             <div class="showcase-controls">
               <button id="prevProject" aria-label="Demo precedente">←</button>
-              <div class="showcase-dots" aria-hidden="true"><span class="active"></span><span></span><span></span></div>
+              <div class="showcase-dots" aria-hidden="true"><span class="active"></span><span></span><span></span><span></span></div>
               <button id="nextProject" aria-label="Demo successiva">→</button>
             </div>
           </div>

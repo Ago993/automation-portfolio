@@ -1,10 +1,11 @@
 # Software Automation Portfolio
 
-Landing page portfolio per presentare servizi di automazione software e tre demo funzionanti:
+Landing page portfolio per presentare servizi di automazione software e quattro demo funzionanti:
 
 - QuoteFlow: preventivi, catalogo locale, prezzi e IVA;
 - ReportFlow: KPI, margini e report da CSV;
-- ListinoDiff: confronto automatico tra listini CSV.
+- ListinoDiff: confronto automatico tra listini CSV;
+- ImportFlow: mappatura, validazione e normalizzazione di export tra sistemi già esistenti.
 
 I nomi delle demo sono nomi di lavoro e non rappresentano necessariamente brand commerciali definitivi.
 
@@ -36,6 +37,7 @@ HTML, CSS e JavaScript puro. Nessuna dipendenza runtime.
 - https://ago993.github.io/quoteflow-demo/
 - https://ago993.github.io/reportflow-demo/
 - https://ago993.github.io/listinodiff-demo/
+- https://ago993.github.io/importflow-demo/
 
 ## Test
 
@@ -54,4 +56,4 @@ Poi apri `http://localhost:8030/`.
 
 ## Nota commerciale
 
-Prima dell'outreach verra collegato il canale di contatto commerciale definitivo (ad esempio il profilo/Service Page LinkedIn).
+Il canale commerciale principale collegato alla landing è la LinkedIn Service Page, con profilo LinkedIn personale disponibile nel footer.

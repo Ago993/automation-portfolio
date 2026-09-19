@@ -17,7 +17,8 @@ assert.equal(new Set(ids).size,ids.length,"Duplicate HTML ids found");
 for(const url of [
   "https://ago993.github.io/quoteflow-demo/",
   "https://ago993.github.io/reportflow-demo/",
-  "https://ago993.github.io/listinodiff-demo/"
+  "https://ago993.github.io/listinodiff-demo/",
+  "https://ago993.github.io/importflow-demo/"
 ]) assert.ok(html.includes(url),url+" missing");
 
 const external=[...html.matchAll(/<a[^>]+target="_blank"[^>]*>/g)].map(x=>x[0]);
