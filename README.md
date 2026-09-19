@@ -25,6 +25,8 @@ La pagina e costruita come landing commerciale, non come semplice elenco di prog
 
 `problema -> soluzione -> demo -> metodo -> contatto`.
 
+Il canale commerciale principale collegato alla landing e la LinkedIn Service Page; il profilo LinkedIn personale resta disponibile nel footer insieme al profilo GitHub.
+
 ## Stack
 
 HTML, CSS e JavaScript puro. Nessuna dipendenza runtime.

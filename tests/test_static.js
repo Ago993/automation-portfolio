@@ -32,4 +32,13 @@ assert.ok(html.includes('id="heroStage"'));
 assert.ok(html.includes('id="showcaseStage"'));
 assert.ok(html.includes('id="copyBriefBtn"'));
 
-console.log("OK - portfolio static/security tests passed");
+const servicePage="https://www.linkedin.com/services/page/400b8534729aa38235/";
+const linkedinProfile="https://www.linkedin.com/in/agostino-piccolella-7766a31bb/";
+assert.ok(html.includes(servicePage),"LinkedIn Service Page link missing");
+assert.ok(html.includes(linkedinProfile),"LinkedIn profile link missing");
+assert.ok(css.includes("overflow-x:clip"),"Horizontal overflow clipping missing");
+assert.ok(css.includes("touch-action:pan-y"),"Vertical-only touch panning safeguard missing");
+assert.ok(css.includes(".ambient{display:none}"),"Mobile ambient overflow safeguard missing");
+assert.ok(css.includes(".hero-visual{overflow:hidden"),"Mobile 3D hero clipping missing");
+
+console.log("OK - portfolio static/security/mobile tests passed");
