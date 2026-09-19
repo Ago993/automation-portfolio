@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#08111f">
   <meta name="description" content="Automazioni software leggere intorno agli strumenti che usi già: preventivi, report, listini e workflow operativi senza sostituire il gestionale.">
   <title>Agostino / Software Automation</title>
-  <link rel="stylesheet" href="styles.css?v=20260919-4">
+  <link rel="stylesheet" href="styles.css?v=20260919-5">
 </head>
 <body>
   <div class="page-noise" aria-hidden="true"></div>
@@ -20,7 +20,7 @@
         <span class="brand-copy"><strong>Agostino</strong><small>Software Automation</small></span>
       </a>
       <nav class="desktop-nav" aria-label="Navigazione principale">
-        <a href="#solutions">Soluzioni</a><a href="#work">Demo</a><a href="#process">Metodo</a><a href="#contact">Contatti</a>
+        <a href="#solutions">Soluzioni</a><a href="#offers">Pacchetti</a><a href="#work">Demo</a><a href="#process">Metodo</a><a href="#contact">Contatti</a>
       </nav>
       <a class="nav-cta" href="https://www.linkedin.com/services/page/400b8534729aa38235/" target="_blank" rel="noreferrer">Parliamone su LinkedIn</a>
     </div>
@@ -126,10 +126,93 @@
       </div>
     </section>
 
+    <section id="offers" class="offers-section">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <div><span class="section-index">03 / PACCHETTI</span><h2>Un primo progetto con <span>confini chiari.</span></h2></div>
+          <p>Prezzi di partenza per micro-progetti ben delimitati. Prima di sviluppare definiamo input, output, regole e criterio di accettazione.</p>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card reveal">
+            <span class="offer-tag">DATA BRIDGE</span>
+            <div class="offer-price"><small>da</small><strong>€149</strong></div>
+            <h3>Importazione e normalizzazione dati</h3>
+            <p>Per eliminare copia-incolla e adattamenti manuali tra un export e il sistema successivo.</p>
+            <ul>
+              <li>1 sorgente CSV</li>
+              <li>mapping e validazione</li>
+              <li>tracciato di uscita definito</li>
+              <li>export pulito + test</li>
+            </ul>
+            <a href="https://ago993.github.io/importflow-demo/?demo=1" target="_blank" rel="noreferrer">Vedi esempio ImportFlow <span>↗</span></a>
+          </article>
+          <article class="offer-card featured reveal" data-delay="70">
+            <span class="offer-tag">CONTROL &amp; RECONCILE</span>
+            <div class="offer-price"><small>da</small><strong>€199</strong></div>
+            <h3>Report e riconciliazione</h3>
+            <p>Per confrontare due fonti o trasformare un export ricorrente in controlli e indicatori leggibili.</p>
+            <ul>
+              <li>fino a 2 sorgenti CSV</li>
+              <li>regole di match / controllo</li>
+              <li>eccezioni e differenze</li>
+              <li>report o export finale</li>
+            </ul>
+            <a href="https://ago993.github.io/reconcileflow-demo/?demo=1" target="_blank" rel="noreferrer">Vedi esempio ReconcileFlow <span>↗</span></a>
+          </article>
+          <article class="offer-card reveal" data-delay="140">
+            <span class="offer-tag">WORKFLOW LITE</span>
+            <div class="offer-price"><small>da</small><strong>€249</strong></div>
+            <h3>Piccolo workflow operativo</h3>
+            <p>Per un passaggio ripetitivo completo: dati in ingresso, regole, controlli e risultato finale in un'unica interfaccia.</p>
+            <ul>
+              <li>1 processo delimitato</li>
+              <li>interfaccia web semplice</li>
+              <li>logica e validazioni</li>
+              <li>consegna documentata</li>
+            </ul>
+            <a href="https://ago993.github.io/quoteflow-demo/?demo=1" target="_blank" rel="noreferrer">Vedi esempio QuoteFlow <span>↗</span></a>
+          </article>
+        </div>
+        <p class="offer-note">Indicazioni per progetti piccoli e definiti. API, backend, autenticazione, integrazioni complesse o requisiti extra vengono valutati separatamente prima di iniziare.</p>
+      </div>
+    </section>
+
+    <section class="cases-section">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <div><span class="section-index">04 / SCENARI DIMOSTRATIVI</span><h2>Dal problema manuale al <span>risultato verificabile.</span></h2></div>
+          <p>Questi sono scenari dimostrativi costruiti sulle demo pubbliche, non casi cliente né risultati economici dichiarati.</p>
+        </div>
+        <div class="case-grid">
+          <article class="case-card reveal">
+            <span>SCENARIO 01</span>
+            <h3>Listino fornitore → file pronto per il gestionale</h3>
+            <div><small>PRIMA</small><p>Colonne diverse, numeri in formati misti e controlli manuali prima dell'import.</p></div>
+            <div><small>AUTOMAZIONE</small><p>Mapping, normalizzazione, validazione e separazione delle righe problematiche.</p></div>
+            <div><small>OUTPUT</small><p>CSV coerente e reimportabile, con errori individuati prima del passaggio successivo.</p></div>
+          </article>
+          <article class="case-card reveal" data-delay="70">
+            <span>SCENARIO 02</span>
+            <h3>Ordini vs fatture → solo eccezioni da controllare</h3>
+            <div><small>PRIMA</small><p>Due export controllati riga per riga per trovare mancanti, duplicati e importi diversi.</p></div>
+            <div><small>AUTOMAZIONE</small><p>Match per chiave, tolleranza sugli importi e classificazione delle anomalie.</p></div>
+            <div><small>OUTPUT DEMO</small><p>Nel dataset dimostrativo: 12 esiti, 6 match, 1 differenza, 2 mancanti, 2 duplicati e 1 riga non valida.</p></div>
+          </article>
+          <article class="case-card reveal" data-delay="140">
+            <span>SCENARIO 03</span>
+            <h3>Catalogo → preventivo senza riscrivere prezzi e IVA</h3>
+            <div><small>PRIMA</small><p>Dati ripetitivi ricopiati nel preventivo con rischio di errori e versioni incoerenti.</p></div>
+            <div><small>AUTOMAZIONE</small><p>Catalogo locale, quantità, sconti, IVA per riga e snapshot dei dati usati.</p></div>
+            <div><small>OUTPUT</small><p>Preventivo compilato, salvabile, riapribile ed esportabile in CSV o stampa/PDF.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section id="work" class="showcase-section">
       <div class="section-shell">
         <div class="section-heading showcase-heading reveal">
-          <div><span class="section-index">03 / LIVE DEMOS</span><h2>Software che puoi <span>provare adesso.</span></h2></div>
+          <div><span class="section-index">05 / LIVE DEMOS</span><h2>Software che puoi <span>provare adesso.</span></h2></div>
           <p>Seleziona una demo. La showcase usa gli screenshot reali delle applicazioni pubblicate, non mockup fittizi.</p>
         </div>
         <div class="showcase-layout">
@@ -188,7 +271,7 @@
 
     <section id="process" class="process section-shell">
       <div class="section-heading reveal">
-        <div><span class="section-index">04 / METODO</span><h2>Dal processo manuale a uno <span>strumento utile.</span></h2></div>
+        <div><span class="section-index">06 / METODO</span><h2>Dal processo manuale a uno <span>strumento utile.</span></h2></div>
         <p>Il punto di partenza non è scegliere una tecnologia. È capire dove si perde tempo e cosa deve succedere automaticamente.</p>
       </div>
       <div class="process-grid">
@@ -201,7 +284,7 @@
     <section class="fit-section">
       <div class="section-shell fit-layout">
         <div class="fit-copy reveal">
-          <span class="section-index">05 / PER CHI</span>
+          <span class="section-index">07 / PER CHI</span>
           <h2>Utile soprattutto quando il lavoro è <span>ripetitivo ma importante.</span></h2>
           <p>Piccole attività, professionisti e team che usano già software, ma hanno ancora passaggi manuali tra strumenti, file e procedure operative ricorrenti.</p>
         </div>
@@ -218,7 +301,7 @@
       <div class="contact-panel reveal">
         <div class="contact-glow" aria-hidden="true"></div>
         <div class="contact-copy">
-          <span class="section-index light">06 / CONTATTO</span>
+          <span class="section-index light">08 / CONTATTO</span>
           <h2>Hai un passaggio che resta ancora <span>a mano?</span></h2>
           <p>Descrivimi cosa fai oggi, quali strumenti utilizzi e quale risultato vuoi ottenere. Il primo obiettivo è capire se vale davvero la pena automatizzare quel passaggio.</p>
           <div class="contact-actions">
@@ -250,6 +333,6 @@
       </div>
     </div>
   </footer>
-  <script src="app.js?v=20260919-4"></script>
+  <script src="app.js?v=20260919-5"></script>
 </body>
 </html>

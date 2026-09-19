@@ -25,9 +25,9 @@ Direzione visiva **Tech Premium**:
 
 La pagina e costruita come landing commerciale, non come semplice elenco di progetti:
 
-`problema -> soluzione -> demo -> metodo -> contatto`.
+`problema -> soluzione -> pacchetti -> scenari dimostrativi -> demo -> metodo -> contatto`.
 
-Il canale commerciale principale collegato alla landing e la LinkedIn Service Page; il profilo LinkedIn personale resta disponibile nel footer insieme al profilo GitHub.
+Il canale commerciale principale collegato alla landing e la LinkedIn Service Page; il profilo LinkedIn personale resta disponibile nel footer insieme al profilo GitHub. La landing presenta tre pacchetti iniziali: Data Bridge da EUR 149, Control & Reconcile da EUR 199 e Workflow Lite da EUR 249. I prezzi sono punti di partenza per micro-progetti con scope definito.
 
 ## Stack
 

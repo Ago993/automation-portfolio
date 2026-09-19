@@ -34,6 +34,15 @@ assert.ok(html.includes('id="heroStage"'));
 assert.ok(html.includes('id="showcaseStage"'));
 assert.ok(html.includes('id="copyBriefBtn"'));
 assert.ok(html.includes("<strong>5</strong><span>demo live</span>"));
+assert.ok(html.includes('id="offers"'));
+assert.ok(html.includes("DATA BRIDGE"));
+assert.ok(html.includes("CONTROL &amp; RECONCILE"));
+assert.ok(html.includes("WORKFLOW LITE"));
+assert.ok(html.includes("€149")&&html.includes("€199")&&html.includes("€249"));
+assert.ok(html.includes("scenari dimostrativi")||html.includes("SCENARI DIMOSTRATIVI"));
+assert.ok(html.includes("non casi cliente"));
+assert.equal((html.match(/class="offer-card/g)||[]).length,3);
+assert.equal((html.match(/class="case-card/g)||[]).length,3);
 assert.equal((html.match(/class="project-tab(?: |")/g)||[]).length,5);
 assert.equal((html.match(/class="project-slide(?: |")/g)||[]).length,5);
 
