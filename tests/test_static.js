@@ -18,11 +18,12 @@ for(const url of [
   "https://ago993.github.io/quoteflow-demo/",
   "https://ago993.github.io/reportflow-demo/",
   "https://ago993.github.io/listinodiff-demo/",
-  "https://ago993.github.io/importflow-demo/"
+  "https://ago993.github.io/importflow-demo/",
+  "https://ago993.github.io/reconcileflow-demo/"
 ]) assert.ok(html.includes(url),url+" missing");
 
 const external=[...html.matchAll(/<a[^>]+target="_blank"[^>]*>/g)].map(x=>x[0]);
-assert.ok(external.length>=4);
+assert.ok(external.length>=5);
 external.forEach(tag=>assert.ok(/rel="[^"]*noreferrer/.test(tag),"Missing noreferrer: "+tag));
 
 assert.ok(!/innerHTML|outerHTML|insertAdjacentHTML|document\.write|\beval\s*\(|new Function/.test(app));
@@ -32,6 +33,9 @@ assert.ok(css.includes("@media(max-width:600px)"));
 assert.ok(html.includes('id="heroStage"'));
 assert.ok(html.includes('id="showcaseStage"'));
 assert.ok(html.includes('id="copyBriefBtn"'));
+assert.ok(html.includes("<strong>5</strong><span>demo live</span>"));
+assert.equal((html.match(/class="project-tab(?: |")/g)||[]).length,5);
+assert.equal((html.match(/class="project-slide(?: |")/g)||[]).length,5);
 
 const servicePage="https://www.linkedin.com/services/page/400b8534729aa38235/";
 const linkedinProfile="https://www.linkedin.com/in/agostino-piccolella-7766a31bb/";

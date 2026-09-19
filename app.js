@@ -29,6 +29,13 @@ const projects=[
     description:"Prende un export da un sistema o fornitore, abbina le colonne al tracciato richiesto, valida i dati e genera un CSV pulito pronto per il passaggio successivo.",
     features:["Auto-mapping","Numeri italiani","Validazione righe","Export normalizzato"],
     url:"https://ago993.github.io/importflow-demo/?demo=1"
+  },
+  {
+    kicker:"RICONCILIAZIONE / ECCEZIONI / CONTROLLO",
+    title:"ReconcileFlow",
+    description:"Confronta due export e concentra il controllo sulle eccezioni: importi diversi, record mancanti, duplicati e righe non valide.",
+    features:["Match 1-a-1","Tolleranza importi","Mancanti / duplicati","Report CSV"],
+    url:"https://ago993.github.io/reconcileflow-demo/?demo=1"
   }
 ];
 

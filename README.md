@@ -1,11 +1,12 @@
 # Software Automation Portfolio
 
-Landing page portfolio per presentare servizi di automazione software e quattro demo funzionanti:
+Landing page portfolio per presentare servizi di automazione software e cinque demo funzionanti:
 
 - QuoteFlow: preventivi, catalogo locale, prezzi e IVA;
 - ReportFlow: KPI, margini e report da CSV;
 - ListinoDiff: confronto automatico tra listini CSV;
 - ImportFlow: mappatura, validazione e normalizzazione di export tra sistemi già esistenti.
+- ReconcileFlow: riconciliazione di due export con match, differenze, mancanti e duplicati.
 
 I nomi delle demo sono nomi di lavoro e non rappresentano necessariamente brand commerciali definitivi.
 
@@ -38,6 +39,7 @@ HTML, CSS e JavaScript puro. Nessuna dipendenza runtime.
 - https://ago993.github.io/reportflow-demo/
 - https://ago993.github.io/listinodiff-demo/
 - https://ago993.github.io/importflow-demo/
+- https://ago993.github.io/reconcileflow-demo/
 
 ## Test
 
