@@ -19,7 +19,9 @@ for(const url of [
   "https://ago993.github.io/reportflow-demo/",
   "https://ago993.github.io/listinodiff-demo/",
   "https://ago993.github.io/importflow-demo/",
-  "https://ago993.github.io/reconcileflow-demo/"
+  "https://ago993.github.io/reconcileflow-demo/",
+  "https://ago993.github.io/secureflow-demo/",
+  "https://ago993.github.io/accessflow-demo/"
 ]) assert.ok(html.includes(url),url+" missing");
 
 const external=[...html.matchAll(/<a[^>]+target="_blank"[^>]*>/g)].map(x=>x[0]);
@@ -33,7 +35,10 @@ assert.ok(css.includes("@media(max-width:600px)"));
 assert.ok(html.includes('id="heroStage"'));
 assert.ok(html.includes('id="showcaseStage"'));
 assert.ok(html.includes('id="copyBriefBtn"'));
-assert.ok(html.includes("<strong>5</strong><span>demo live</span>"));
+assert.ok(html.includes("<strong>7</strong><span>demo live</span>"));
+assert.ok(html.includes('id="security"'),"Security section missing");
+assert.ok(html.includes("SecureFlow")&&html.includes("AccessFlow"),"Security demos missing");
+assert.ok(html.includes("Nessun SOC 24/7"),"Security scope boundary missing");
 assert.ok(html.includes('id="offers"'));
 assert.ok(html.includes("01 / ESSENZIALE"));
 assert.ok(html.includes("02 / CONTROLLO"));
@@ -50,8 +55,8 @@ assert.ok(html.includes("scenari dimostrativi")||html.includes("SCENARI DIMOSTRA
 assert.ok(html.includes("non casi cliente"));
 assert.equal((html.match(/class="offer-card/g)||[]).length,3);
 assert.equal((html.match(/class="case-card/g)||[]).length,3);
-assert.equal((html.match(/class="project-tab(?: |")/g)||[]).length,5);
-assert.equal((html.match(/class="project-slide(?: |")/g)||[]).length,5);
+assert.equal((html.match(/class="project-tab(?: |")/g)||[]).length,7);
+assert.equal((html.match(/class="project-slide(?: |")/g)||[]).length,7);
 
 const servicePage="https://www.linkedin.com/services/page/400b8534729aa38235/";
 const linkedinProfile="https://www.linkedin.com/in/agostino-piccolella-7766a31bb/";

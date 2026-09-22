@@ -36,6 +36,20 @@ const projects=[
     description:"Confronta due export e concentra il controllo sulle eccezioni: importi diversi, record mancanti, duplicati e righe non valide.",
     features:["Match 1-a-1","Tolleranza importi","Mancanti / duplicati","Report CSV"],
     url:"https://ago993.github.io/reconcileflow-demo/?demo=1"
+  },
+  {
+    kicker:"SECURITY BASELINE / REMEDIATION",
+    title:"SecureFlow",
+    description:"Trasforma un dataset locale di controlli security in priorità, evidenze e remediation. Nessuna scansione live e nessuna richiesta di rete.",
+    features:["Baseline score demo","Severity filters","Remediation","Local JSON"],
+    url:"https://ago993.github.io/secureflow-demo/"
+  },
+  {
+    kicker:"IDENTITY / MFA / PRIVILEGI",
+    title:"AccessFlow",
+    description:"Analizza localmente un inventario account e segnala MFA mancante, privilegi elevati, account stale, inattivi o condivisi.",
+    features:["MFA coverage","Privileged accounts","Stale users","CSV findings"],
+    url:"https://ago993.github.io/accessflow-demo/"
   }
 ];
 
